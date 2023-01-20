@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg:#FFC5BF;
+    --primary:#FF968A;
+    --text:#353935;
+    --text2:#A0A0A0;
+    --input-bg:#F2F3F4;    
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.main-content{
+    background-color: var(--bg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.content{
+    background-color: white;
+    width: 480px;
+    height: 440px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.content-form{
+    position: relative;
+}
+.div-cont{
+    width: 80%;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+.title{
+    padding-left: 5px;
+    margin-bottom: 20px;
+    border-left: 6px solid var(--primary);
+}
+.div-cont h2{
+    font-size: 20px;
+    color: var(--bg);
+}
+.content-form input[type="text"],.content-form input[type="password"]{
+    background-color: var(--input-bg);
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    height: 45px;
+    margin: 10px 0;
+    padding-left:13px;
+}
+.content-form input[type="text"]:focus,.content-form input[type="password"]:focus{
+   outline: none;
+   border: 2px solid var(--primary);
+}
+.l1{
+    position: absolute;
+    left: 13px;
+    bottom: 245px;
+    color: var(--text2);
+}
+.l2{
+    position: absolute;
+    left: 13px;
+    bottom: 180px;
+    color: var(--text2);
+}
+.tx1{
+    display: block;
+    float: right;
+    color: red;
+}
+.content-form input[type="button"]{
+    width: 96%;
+    height: 40px;
+    margin: 15px 0px 5px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: white;
+    text-transform: capitalize;
+}
+.or p{
+    display: inline-block;
+    margin: 0 auto;
+}
+hr{
+    display: inline-block;
+    width: 45%;
+}
